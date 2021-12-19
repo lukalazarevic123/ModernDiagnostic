@@ -44,7 +44,7 @@ class BrainTumorDetection extends Component {
     evt.preventDefault();
     const ipfsHash = await this.uploadIPFS(evt);
 
-    
+    console.log(ipfsHash)
     const CID = require('cids');
     const imgV1 = new CID(ipfsHash).toV1().toString('base32');console.log(imgV1);
 
@@ -55,9 +55,13 @@ class BrainTumorDetection extends Component {
     spinner.hidden = false;
 
     const res = await fetch("http://localhost:5000/" + ipfsHash);
-    const res2 = await res.json();
+    var res2 = await res.json();
 
-    const boolean = res2[2] === "F" ? "Negative" : "Positive";//TODO bit risky, needs to be changed
+    res2 = JSON.stringify(res2);
+
+    console.log(res2)
+
+    const boolean = res2.includes("True") ? "Positive" : "Negative";//TODO bit risky, needs to be changed
     
     var result = {
       date: new Date(),
