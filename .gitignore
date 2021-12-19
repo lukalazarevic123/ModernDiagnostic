@@ -1,0 +1,10 @@
+/btd-backend/node_modules/
+/btd-frontend/node_modules/
+/smart-contracts/node_modules/
+/smart-contracts/.env
+
+/btd-backend/datasets/
+/btd-backend/Br35H-Mask-RCNN/
+/btd-backend/datasets/
+/btd-backend/pred/
+/btd-backend/venv

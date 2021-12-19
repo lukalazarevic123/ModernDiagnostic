@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200&display=swap');
+
+.App{
+  display: block;
+  margin-top: 5%;
+}
+
+body{
+  font-family: 'Jost' !important;
+}
+
+nav{
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.spinner-border{
+  display: inherit !important;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgDisplay{
+  width: 375px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.imgDisplay img[alt]{
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.submitForm{
+  padding-top: 20px;
+}
+
+img{
+  border-radius: 20px;
+}
+
+.container{
+  display: block;
+}
+
+.result{
+  border: 1px solid black;
+  margin-top: 10px;
+  font-weight: 700;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}

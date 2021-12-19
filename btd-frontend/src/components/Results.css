@@ -1,0 +1,20 @@
+.container{
+    margin-top: 5%;
+}
+
+.card {
+    width: 70% !important;
+    height: 70% !important; 
+    border-radius: 30px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.card-img-top{
+    height: 50%;
+}
+
+
+p{
+    font-weight: 500;
+}

@@ -1,0 +1,9 @@
+.navbar{
+    justify-content: flex-start !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a{
+    color: white !important;
+}
